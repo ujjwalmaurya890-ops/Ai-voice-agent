@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=8
+# Optional static checks (not required for test.bat): run manually with
+# `python -m pyflakes campusvoice tests` and `python -m mypy campusvoice`.
+pyflakes>=3
+mypy>=1.10
